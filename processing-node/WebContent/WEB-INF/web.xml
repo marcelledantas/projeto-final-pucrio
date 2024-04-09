@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <context-param>
+	<!-- InterSCity IP address and TCP port - do *NOT* include http protocol  -->
+    <param-name>interSCityIPAddress</param-name>
+    <!-- <param-value>cidadesinteligentes.lsdi.ufma.br</param-value> -->
+    <param-value>cidadesinteligentes.lsdi.ufma.br/interscity/pucrio/</param-value>
+  </context-param>
+  <context-param>
+    <param-name>gatewayIP</param-name>
+    <param-value>localhost</param-value>
+  </context-param>
+  <context-param>
+    <param-name>gatewayPort</param-name>
+    <param-value>5500</param-value>
+  </context-param>
+  <context-param>
+  	<description>Working directory</description>
+  	<param-name>workDir</param-name>
+  	<param-value>/Users/imarc/IdeaProjects/region-alert-v3.0/processing-node/</param-value>
+  </context-param>
+  <context-param>
+  	<description>Group description filename</description>
+  	<param-name>groupDescriptionFilename</param-name>
+  	<param-value>Bairros/RioDeJaneiro.lista</param-value>
+  </context-param>
+</web-app>

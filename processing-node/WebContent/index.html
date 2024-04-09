@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script type="text/javascript" src="javascript/index.js"></script>
+<script type="text/javascript" src="javascript/util.js"></script>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div id='idStatus'><br></div>
+<div>
+	<!-- Creates a multiarea alert -->
+	<form action="" method="get">
+		Select areas (use Ctrl and/or Shft keys to select multiple areas)<br>
+		<select multiple="multiple" id='idAreas' name='areas'></select><br>
+		<br>
+		Alert starts at:
+		<input type="datetime-local" id='idStartTimestamp' name="startTimestamp"><br>
+		<br>
+		Enter alert description<br>
+		<textarea rows="10" cols="40" placeholder="Enter alert description" id='idText' name='text'></textarea><br>
+		<br>
+		Valid until (please, use the date picker)<br>
+		<input type="datetime-local" id='idEndTimestamp' name='endTimestamp'><br>
+		--- OR ---<br>
+		Valid for:<br>
+		<input type="number" id='idDeltaTime' name='deltaTime'> minutes<br>
+		<br><br>
+		<input type="button" value="Submit alert" id='idSubmitAlert'>
+	</form>
+</div>
+
+</body>
+</html>

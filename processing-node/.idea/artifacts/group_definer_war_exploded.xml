@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="group-definer:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/group_definer_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="group-definer" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.openstreetmap.jmapviewer:jmapviewer:2.8" />
+          <element id="library" level="project" name="Maven: br.pucrio.inf.lac:contextnet:3.0" />
+          <element id="library" level="project" name="Maven: org.json:json:20180813" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.4" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.7" />
+          <element id="library" level="project" name="Maven: org.xerial:sqlite-jdbc:3.36.0.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.10.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.10.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.0" />
+          <element id="library" level="project" name="Maven: org.apache.kafka:kafka-clients:2.8.0" />
+          <element id="library" level="project" name="Maven: com.github.luben:zstd-jni:1.4.9-1" />
+          <element id="library" level="project" name="Maven: org.lz4:lz4-java:1.7.1" />
+          <element id="library" level="project" name="Maven: org.xerial.snappy:snappy-java:1.1.8.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:2.0.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:2.0.5" />
+          <element id="library" level="project" name="Maven: br.pucrio.inf.lac:ExchangeData:1.0" />
+          <element id="library" level="project" name="Maven: br.pucrio.inf.lac:clientLib:3.0" />
+          <element id="library" level="project" name="Maven: io.sweers.inspector:inspector:0.3.0" />
+          <element id="library" level="project" name="Maven: com.espertech:esper:7.1.0" />
+          <element id="library" level="project" name="Maven: org.antlr:antlr4-runtime:4.7" />
+          <element id="library" level="project" name="Maven: cglib:cglib-nodep:3.2.5" />
+          <element id="library" level="project" name="Maven: org.codehaus.janino:janino:3.0.7" />
+          <element id="library" level="project" name="Maven: org.codehaus.janino:commons-compiler:3.0.7" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-annotations-api:10.1.4" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="group-definer/web/Web" />
+    </root>
+  </artifact>
+</component>
